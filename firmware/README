@@ -1,1 +1,5 @@
 BLDC Control Firmware for ESP32, UART Interface. CAN Interface is on going
+
+Tips:
+1) When motor driver serial port connect to ESP32 control board, firmware upload will fail
+2) Enable Serial Monitor to set speed manually by serial port.
