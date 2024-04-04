@@ -3,5 +3,5 @@ BLDC Control Firmware for ESP32, UART Interface. CAN Interface is on going
 Tips:
 1) When motor driver serial port connect to ESP32 control board, firmware upload will fail
 2) Enable Serial Monitor to set speed manually by serial port.
-3) Power/CAN port need connect during firmeware upload as PCB is dual power design in order
-    to save power.
+3) Power/CAN port need connect during firmeware upload as PCB is dual power design in orderto save power.
+4) set "CRLF" in "Serial Monitor -> Line Ending", otherwise serial input/out does not work
